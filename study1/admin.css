@@ -1,11 +1,18 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
 #header {
     width: auto;
-    height: 40px;
+    /*height: 40px;*/
     padding: 10px 40px;
     background: #417690;
-    line-height: 40px;
+    /*line-height: 40px;*/
     color: #ffc;
     overflow: hidden;
+    border: 10px, 20px;
+    margin: 10px;
 }
 
 #header a:link, #header a:visited {
@@ -18,4 +25,22 @@
 
 #branding h1, #branding h1 a:link, #branding h1 a:visited {
     color: #f5dd5d;
+}
+
+#branding {
+    margin: 10px,10px;
+    padding: 10px, 10px;
+}
+
+body .box {
+    /*height: 80px;*/
+    /*line-height: 40px;*/
+    margin: 40px;
+    padding: 30px;
+    overflow: hidden;
+}
+
+body .boxInside {
+    margin: 40px;
+    padding: 30px;
 }
