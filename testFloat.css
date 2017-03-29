@@ -1,0 +1,50 @@
+#a
+{
+	background-color:Red;
+	height:50px;
+	width:100px;
+	/*float:right;*/
+}
+#b
+{
+	background-color:Yellow;    
+	height:50px;
+	width:200px;
+	float: left;
+	margin: 40px;
+}
+#c
+{
+	background-color:Blue;   
+	height:50px;
+	width:300px;
+	float: left;
+	margin: 40px;
+}
+#d
+{
+	background-color:Gray;
+	height:50px;
+	width:400px;
+	/*float:left;*/
+}
+
+/*input {
+	display: block
+}*/
+
+input[value='input1'] {
+	float:left;
+}
+
+/*input[value='input1'] {
+	margin: 20px 40px;
+	padding: 40px;
+}*/
+
+a {
+	margin: 20px;
+	padding: 40px;
+	overflow: auto;
+	display: block;
+}
