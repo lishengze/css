@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    overflow: hidden;
+    overflow: auto;
 }
 #header {
     width: auto;
@@ -43,4 +43,9 @@ body .box {
 body .boxInside {
     margin: 40px;
     padding: 30px;
+}
+
+#TestOverflow {
+    height: 40px;
+    overflow: auto;
 }
