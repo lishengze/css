@@ -102,20 +102,42 @@ p {
 	  margin-bottom: 20px; 
 }*/
 
-p { 
+.testp { 
 	margin-top: 20px; 
 	margin-bottom: 20px; 
 	background-color: #00ff21; 
-	width: 500px; 
-	height: 60px;
+	/*width: 500px; 
+	height: 60px;*/
 	/*overflow: auto;*/
-	/*float: left;*/
+	float: left;
 	}
 .high-float { 
 	/*display: block;*/
-	/*float: right; */
-	height: 80px; 
-	line-height: 80px; 
+	float: left; 
+	/*height: 80px; */
+	/*line-height: 80px; */
 	background-color: orangered; 
 	margin-left: 20px;
+}
+
+#testul1 {
+	width:440px; 
+	border-top:4px solid #a0b3d6; 
+	border-bottom:4px solid #34538b;	
+}
+
+#testli1 {
+	border:4px 
+	solid #ff6633; 
+	background:#ffffc0;
+	float:left;
+	/*display: inline-box;*/
+}
+
+#testli2 {
+	border:4px 
+	solid #ff6633; 
+	background:#ffffc0;
+	float: left;
+	/*display: inline-box;*/
 }
