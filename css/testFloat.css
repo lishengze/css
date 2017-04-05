@@ -130,14 +130,18 @@ p {
 	border:4px 
 	solid #ff6633; 
 	background:#ffffc0;
-	float:left;
-	/*display: inline-box;*/
+	/*float:left;*/
+	display: inline-block;
+	width: 100px;
+	height: 200px;
 }
 
 #testli2 {
-	border:4px 
+	border:4px
 	solid #ff6633; 
 	background:#ffffc0;
-	float: left;
-	/*display: inline-box;*/
+	/*float: left;*/
+	display: inline-block;
+	width: 100px;
+	height: 300px;
 }
