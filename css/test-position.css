@@ -2,14 +2,14 @@ body {
 	margin: 0px;
 	position: relative;
 }
-div {
+/*div {
 	 background: #417690; 
 	 width: 250px; 
 	 height: 15%;
 	 position: absolute;
-	 /*margin-bottom: -100px;*/
-	 /*padding: 20px;*/
-}
+	 margin-bottom: -100px;
+	 padding: 20px;
+}*/
 .relative { 
 	background: #ff6a00; 
 	position: relative; 
@@ -43,7 +43,43 @@ div {
 	 background: #417690; 
 	 width: 250px; 
 	 height: 200px;
-	 position: fixed;
+	 position: static;
 	 /*margin-bottom: -100px;*/
 	 /*padding: 20px;*/
+}
+
+#div1 {
+	height: 50px;
+	/*line-height: 50px;*/
+	width: 100px;
+	text-align: left;
+	background-color: gold;
+	position: static;
+	margin: 10px;
+	vertical-align: baseline;
+	display: inline-block;
+}
+
+#div2 {
+	height: 50px;
+	/*line-height: 50px;*/
+	width: 100px;
+	text-align: right;
+	background-color: gray;
+	position: static;
+	margin: 10px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+#div3 {
+	height: 50px;
+	/*line-height: 50px;*/
+	width: 100px;
+	text-align: center;
+	background-color: peru;
+	position: static;
+	margin: 10px;
+	vertical-align: text-bottom;
+	display: inline-block;
 }
