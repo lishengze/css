@@ -1,5 +1,6 @@
 body{
 	margin: 0px;
+	padding: 10px;
 }
 
 #box1 {
@@ -100,6 +101,8 @@ body{
 
 .zxx_align_box_2{
 	display:table-cell; 
+	/*display:inline; 
+	display:inline-block; */
 	width:350px; 
 	height:200px; 
 	padding:0 0.1em; 
@@ -119,4 +122,51 @@ body{
 }
 .dib {
 	display: inline-block;
+}
+
+.multi_line {
+	line-height: 150px;
+	padding:0 0.1em; 
+	border:4px dotted #beceeb; 
+	font-size: 0px;
+}
+
+.multi_line span {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 1.4em;
+}
+
+.zxx_align_box_5 span {
+	display:inline-block; 
+	width:1.2em; 
+	font-size:128px; 
+	text-align:center; 
+	vertical-align:middle;
+}
+
+.zxx_align_box_5 span img {
+	vertical-align:middle; 
+	padding:2px; 
+	border:1px solid #beceeb;
+}
+
+.zxx_align_box_5 div {
+	display:inline-block; 
+	width:1.2em; 
+	font-size:128px; 
+	text-align:center; 
+	vertical-align:middle;
+}
+
+.zxx_align_box_5 div img {
+	vertical-align:middle; 
+	padding:2px; 
+	border:1px solid #beceeb;
+}
+
+.zxx_align_box_5 div a {
+	vertical-align:middle; 
+	padding:2px; 
+	border:1px solid #beceeb;
 }
