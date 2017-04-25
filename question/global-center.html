@@ -1,0 +1,40 @@
+<!DOCTYPE>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title> 全局居中 </title>
+	</head>
+	<style>
+		html,body {
+			width:100%;
+			height: 100%;
+			line-height: 100%;
+			margin: 0px;
+		}
+		#mainDiv {
+			position: relative;
+			width:100%;
+			height:500px;
+			/*line-height: 500px;*/
+			background-color: cyan;
+			display: inline-block;
+			vertical-align: middle;
+		}
+		#child {
+			margin: 0px;
+			text-align: center;
+			width: 100%;
+			display: inline-block;
+			vertical-align: middle;
+		}
+	</style>
+	<body>		
+		<div id="mainDiv">
+			<p id="child"> Global Center </p>
+			<i class="vm dib">&nbsp;</i>
+		</div>  
+		<!--<span id="mainDiv">
+			<span id="child"> Global Center </span>		
+		</span>  		-->
+	</body>
+</html>
