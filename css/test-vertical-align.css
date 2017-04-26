@@ -103,7 +103,7 @@ body{
 	display:table-cell; 
 	/*display:inline; 
 	display:inline-block; */
-	width:350px; 
+	width:550px; 
 	height:200px; 
 	padding:0 0.1em; 
 	border:4px solid #beceeb; 
@@ -125,10 +125,12 @@ body{
 }
 
 .multi_line {
-	line-height: 150px;
+	line-height: 100px;
+	height: 150px;
 	padding:0 0.1em; 
 	border:4px dotted #beceeb; 
 	font-size: 0px;
+
 }
 
 .multi_line span {
