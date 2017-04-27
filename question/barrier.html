@@ -1,0 +1,112 @@
+<!DOCTYPE>
+<html>
+	<head lang="en">
+		<meta charset="utf-8">
+		<title> 栅栏化布局 </title>
+		<script src="../js/jquery-1.11.3/jquery.min.js"></script>
+		<style>
+			div {
+				display: inline-block;
+				text-align: center;
+			}
+			.flex-main{
+				width: 500px;
+				height: 500px;
+				border: 2px solid darkblue;
+				padding: 10px;	
+				display: flex;		
+				flex-direction: column;
+				justify-content: center;	
+				flex-wrap: wrap;
+			}
+			.normal-main {
+				width: 500px;
+				height: 500px;
+				line-height: 500px;
+				border: 2px solid darkblue;
+				padding: 10px;	
+				display: inline-block;		
+			}
+			.first {
+				width: 30%;
+				height: 90%;
+				border: 1px solid lightcoral;
+				margin-right: 10px;		
+				vertical-align: middle;		
+			}
+			.second {
+				width: 60%;
+				height: 90%;
+				line-height: 50%;
+				border: 1px solid rebeccapurple;
+				vertical-align: middle;
+			}
+			.second>div{
+				width: 40%;
+				height: 40%;				
+				line-height: 100%;	
+				border: 1px solid cyan;
+				margin-top: 5px;
+				margin-right: 5px;
+				vertical-align: middle;
+			}
+			span {
+				height: 100%;
+				line-height: 100%;
+				display: inline-block;
+				vertical-align: middle;
+			}
+			.flex-second {
+				width: 30%;
+				height: 45%;								
+				border: 1px solid cyan;
+			}
+		</style>
+		<script>
+			$(document).ready(function() {
+				console.log ($(".second").css('line-height'));
+			});
+		</script>
+	</head>
+	<body>
+		<!--<div class="flex-main">
+			<div class="first" >
+				A
+			</div>
+			<div class="flex-second">
+				B
+			</div>
+			<div class="flex-second">
+				C
+			</div>
+			<div class="flex-second">
+				D
+			</div>
+			<div class="flex-second">
+				E
+			</div>				
+		</div>-->
+
+		<div class="normal-main">
+			<div class="first" >	
+				A
+			</div>			
+			<div class="second">	
+				<!--&nbsp;		-->
+				<div>			
+					<span> B </span>
+					&nbsp;
+				</div>
+				<div>	
+					C		
+				</div>
+				<div>	
+					D	
+				</div>
+				<div>		
+					E
+				</div>	
+			</div>	
+		</div>
+	</body>
+</html>

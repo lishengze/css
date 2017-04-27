@@ -122,10 +122,11 @@ body{
 }
 .dib {
 	display: inline-block;
+	font-size: 12px;
 }
 
 .multi_line {
-	line-height: 100px;
+	line-height: 150px;
 	height: 150px;
 	padding:0 0.1em; 
 	border:4px dotted #beceeb; 
@@ -135,7 +136,7 @@ body{
 
 .multi_line span {
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: baseline;
 	line-height: 1.4em;
 }
 
