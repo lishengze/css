@@ -1,0 +1,49 @@
+<!DOCTYPE>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title> 测试选择器 </title>
+		<style>
+			/*div:first-of-type {
+				width: 100px;
+				height: 100px;
+				background-color: blue;
+			}
+			div:last-of-type {
+				width: 100px;
+				height: 100px;
+				background-color: green;
+			}			*/
+			p:before {
+				content: "";
+				display: block;				
+				width: 100px;
+				height: 100px;
+				background-color: blue;
+			}
+			p:after {
+				content: "";
+				display: block;
+				width: 100px;
+				height: 100px;
+				background-color: green;
+			}						
+		</style>
+	</head>
+	<body>
+		<div>
+			<div>
+			</div>
+			<p> P </p>
+			<div>
+			</div>
+		</div>
+		<div>
+			<div>
+			</div>
+			<p> P </p>
+			<div>
+			</div>			
+		</div>		
+	</body>
+</html>
